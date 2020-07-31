@@ -1,0 +1,30 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "打开 / 关闭面板",
+      "identifier": "atom-rename-tool.atom-rename-tool-identifier",
+      "script": "__my-command.js",
+      "handlers": {
+        "run": "onRun",
+        "actions": {
+          "Shutdown": "onShutdown"
+        }
+      }
+    }
+  ],
+  "menu": {
+    "title": "Atom Rename Tool",
+    "items": [
+      "atom-rename-tool.atom-rename-tool-identifier"
+    ]
+  },
+  "version": "0.1.0",
+  "name": "my-plugin",
+  "identifier": "my-plugin",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "brunoming",
+  "authorEmail": "brunoming1996@qq.com"
+}
